@@ -1,5 +1,6 @@
 # Sat2StrPanoramaSynthesis
 Geometry-Guided Street-View Panorama Synthesis from Satellite Imagery, TPAMI 2022
+![alt text](./framework.png)
 
 # Abstract
 This paper presents a new approach for synthesizing a novel street-view panorama given a satellite image, as if captured from the geographical location at the center of the satellite image. Existing works approach this as an image generation problem, adopting generative adversarial networks to implicitly learn the cross-view transformations, but ignore the geometric constraints.
@@ -16,7 +17,7 @@ Our experiment is conducted on the CVUSA and CVACT dataset. For our processed da
 
 ### Codes
 
-# Training
+- Training
 
 cd script3
 
@@ -25,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataset CVUSA --l1_weight_grd 0 --percep
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset CVACT --l1_weight_grd 0 --perceptual_weight_grd 1 --skip 0 --heightPlaneNum 64 --mode train
 
 
-# Testing
+- Testing
 
 cd script3
 
