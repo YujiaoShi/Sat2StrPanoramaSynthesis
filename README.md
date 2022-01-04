@@ -17,7 +17,7 @@ Our experiment is conducted on the CVUSA and CVACT dataset. For our processed da
 
 ### Codes
 
-- Training
+#### Training
 
 cd script3
 
@@ -26,7 +26,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --dataset CVUSA --l1_weight_grd 0 --percep
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset CVACT --l1_weight_grd 0 --perceptual_weight_grd 1 --skip 0 --heightPlaneNum 64 --mode train
 
 
-- Testing
+#### Testing
 
 cd script3
 
