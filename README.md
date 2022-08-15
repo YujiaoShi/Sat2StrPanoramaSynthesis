@@ -15,6 +15,11 @@ Extensive experimental results on two cross-view benchmark datasets demonstrate 
 
 Our experiment is conducted on the CVUSA and CVACT dataset. For our processed data, please download [here](https://anu365-my.sharepoint.com/:f:/g/personal/u6293587_anu_edu_au/EuOBUDUQNClJvCpQ8bD1hnoBjdRBWxsHOVp946YVahiMGg?e=F4yRAC).  
 
+
+### Preparation
+
+Please load trained VGG model on Imagenet from [here](https://anu365-my.sharepoint.com/:u:/g/personal/u6293587_anu_edu_au/EVueknEGIBpKolDJ3JrqEjsBey5P12JFuR36xpO-inhXHg?e=kkmD4r). This is for VGG perceptual loss. 
+
 ### Codes
 
 #### Training
