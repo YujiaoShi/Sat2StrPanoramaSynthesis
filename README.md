@@ -15,6 +15,7 @@ Extensive experimental results on two cross-view benchmark datasets demonstrate 
 
 Our experiment is conducted on the CVUSA and CVACT dataset. For our processed data, please download [here](https://anu365-my.sharepoint.com/:f:/g/personal/u6293587_anu_edu_au/EuOBUDUQNClJvCpQ8bD1hnoBjdRBWxsHOVp946YVahiMGg?e=F4yRAC).  
 
+(The link may expire regularly. If it does not work, please drop me an email: yujiao.shi@anu.edu.au.)
 
 ### Preparation
 
